@@ -1,3 +1,10 @@
+How to run this project
+#Run mongod in the background
+#Enter command line: node app.js
+
+
+
+Architecture Design
 #Style the campgrounds page
 * Add a better header/title
 * Make campgrounds display in a grid
@@ -19,15 +26,15 @@
 
 
 
-RESTFUL ROUTES
-name    url         verb    desc.
-=====================================================
-INDEX   /dogs       GET     Display a list of all dog
-NEW     /dogs/new   GET     Display a form to make a new dog
-CREATE  /dogs       POST    Add new dog to DB
-SHOW    /dogs/:id   GET     Show info about one dog
+#RESTFUL ROUTES
+*name    url         verb    desc.
+*=====================================================
+*INDEX   /dogs       GET     Display a list of all dog
+*NEW     /dogs/new   GET     Display a form to make a new dog
+*CREATE  /dogs       POST    Add new dog to DB
+*SHOW    /dogs/:id   GET     Show info about one dog
 
-api.github.com/users
+*api.github.com/users
 
 
 #Refactor Mongoose Code
